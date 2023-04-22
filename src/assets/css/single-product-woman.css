@@ -1,0 +1,115 @@
+.single-product-content-left {
+    position: relative;
+}
+.single-product-content-left::before {
+    position: absolute;
+    left: 20px;
+    top: 20px;
+
+    content: attr(data);
+    width: 42px;
+    height: 42px;
+    color: #ffffff;
+    font-size: 15px;
+    line-height: 13px;
+    font-weight: 700;
+    background-color: #D6763C;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100%;
+}
+
+.page-map {
+font-family: 'Arimo';
+font-style: normal;
+font-weight: 700;
+font-size: 15px;
+line-height: 17px;
+/* identical to box height */
+
+text-transform: uppercase;
+color: #888888;
+}
+.page-map a {
+    text-decoration: none;
+}
+.page-map .page-present {
+    padding-bottom: 15px;
+}
+.product-title {
+    /* Section/Title */
+
+font-family: 'Arimo';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 48px;
+/* identical to box height, or 133% */
+
+color: #1D1D1D;
+}
+
+.product-cost .cost {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    text-decoration-line: line-through;
+    color: #818181;
+}
+
+.product-cost .sale-cost {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    color: #024E82;
+    padding-left: 14px;
+}
+
+.intro-area {
+    width: 550px;
+    height: 72px;
+}
+
+.select-size-box {
+    position: relative;
+    box-sizing: border-box;
+    width: 210px;
+    height: 48px;
+    background: #FBFBFB;
+    border: 1px solid #EBEBEB;
+
+}
+.select-size-box .select-button {
+    position: absolute;
+    font-family: 'Font Awesome 5 Free';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 14px;
+    line-height: 16px;
+    align-items: center;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #818181;
+    left: 180px;
+    top: 12px;
+    border: none;
+    
+}
+
+.single-product-button {
+    position: relative;
+    width: 165px;
+    height: 48px;
+    background: #024E82;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    right: 10px;
+    top:50px;
+}

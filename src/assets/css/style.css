@@ -1,0 +1,139 @@
+:root {
+
+}
+
+/*    iframe     */
+.header-iframe {
+    display: fixed;
+    height: 88px;
+    width: 100%;
+}
+@media(min-width: 320px) {
+    .footer-iframe {
+        height: 1000px;
+        width: 100%;
+    }
+}
+@media(min-width: 1024px) and (max-width: 1239px){
+    .footer-iframe {
+        height: 486px;
+        width: 100%;    
+    }
+}
+
+/*    footer     */
+.footer {
+    margin-left: 20px; 
+}
+.footer-title {
+    font-family: 'Arimo';
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 14px;
+    color: #1D1D1D;
+    text-transform: uppercase;
+    font-family: 'Arimo';
+    letter-spacing: 0.05em;
+}
+.footer-link {
+    display: flex;
+    text-decoration: none;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #1D1D1D;
+}
+.footer-input-email-button {
+    border: none;
+    background-color: #ffffff;
+}
+
+.left-area a {
+    text-decoration: none;
+}
+
+
+
+/*   home page   */
+
+.hompage {
+    background-color: lightgoldenrodyellow;
+    text-align: center;
+}
+/*     Header     */
+ .header {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    height: 90px;
+    border: 1px solid #f2f2f2;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+ .header .header-left {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+ .header .header-logo {
+    margin-left: 65px;
+    margin-right: 95px;
+}
+ .header .header-text {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 8px;
+}
+ .header .header-link {
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 0.05em;
+    font-weight: 700;
+    color: #000000;
+    text-decoration: none;
+}
+ .header .header-link:hover {
+    color: #024e82;
+}
+ .header .header-right {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 63px;
+}
+ .header .header-right img {
+    cursor: pointer;
+}
+ .header .header-right .shopping-cart-icon {
+    margin-left: 25px;
+    margin-right: 20px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+ .header .header-right .shopping-cart-icon::before {
+    content: attr(data);
+    position: absolute;
+    width: 21px;
+    height: 21px;
+    color: #ffffff;
+    background-color: #024e82;
+    font-size: 10px;
+    line-height: 13px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: -22%;
+    left: 50%;
+    border-radius: 100%;
+}
+
+
+
