@@ -1,7 +1,8 @@
 
 import React from "react"
-import "./assets/css/style.css"
-import "./assets/css/grid.css"
+import './footer.css';
+import './grid.css';
+
 
 function Footer() {
     return (

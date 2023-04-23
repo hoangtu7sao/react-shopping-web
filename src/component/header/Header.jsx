@@ -1,4 +1,6 @@
 import React from "react"
+import { Link } from "react-router-dom";
+import './header.css';
 
 function Header() {
     return (
@@ -14,7 +16,10 @@ function Header() {
         <div className="header-right">
           <img src="/shopping-website/assets/icons/header-icons/user-icon.svg" alt="user-icon" />
           <div className="shopping-cart-icon" data="10">
-            <img src="/shopping-website/assets/icons/header-icons/cart-icon.svg" alt="cart-icon" />
+       
+          <img src="/shopping-website/assets/icons/header-icons/cart-icon.svg" alt="cart-icon" />
+          <Link to="/cart">abc</Link>
+            
           </div>
           <img src="/shopping-website/assets/icons/header-icons/menu-icon.svg" alt="menu-icon" />
         </div>
