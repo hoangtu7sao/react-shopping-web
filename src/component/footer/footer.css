@@ -1,0 +1,31 @@
+.footer {
+    margin-left: 20px; 
+}
+.footer-title {
+    font-family: 'Arimo';
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 14px;
+    color: #1D1D1D;
+    text-transform: uppercase;
+    font-family: 'Arimo';
+    letter-spacing: 0.05em;
+}
+.footer-link {
+    display: flex;
+    text-decoration: none;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #1D1D1D;
+}
+.footer-input-email-button {
+    border: none;
+    background-color: #ffffff;
+}
+
+.left-area a {
+    text-decoration: none;
+}
