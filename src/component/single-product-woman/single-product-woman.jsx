@@ -1,5 +1,6 @@
 import React from 'react';
 import './single-product-woman.css';
+import '../../assets/css/grid.css';
 
 function SingleProductWoman() {
     return (
@@ -36,7 +37,7 @@ function SingleProductWoman() {
                             <p>Select size</p>
                             <select className="select-button" name="" id="">Select size</select>
                         </div>
-                        <button className="single-product-button">Add to cart</button>
+                        <button onclick="add-to-cart()" className="single-product-button">Add to cart</button>
                         <div>
                             <p>Category: Women, Polo, Casual
                                 Tags: Modern, Design, cotton

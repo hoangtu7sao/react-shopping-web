@@ -1,6 +1,6 @@
 import React from 'react';
 import './checkout.css';
-import './grid.css';
+import '../../assets/css/grid.css';
 
 function Checkout() {
     return (

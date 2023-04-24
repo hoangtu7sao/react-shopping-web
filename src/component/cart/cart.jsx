@@ -1,6 +1,6 @@
 import React from "react";
 import './cart.css';
-import './grid.css';
+import '../../assets/css/grid.css';
 
 function CartPage() {
     return (
@@ -22,7 +22,7 @@ function CartPage() {
                         <hr className="line-1" />
 
                         <div className="row-1 row">
-                            <a className="cart-close l-1 l-o-1 m-o-1 m-1" href="./assets/icons/cart-icons/close.svg"></a>
+                            <a className="cart-close l-1 l-o-1 m-o-1 m-1" href="../../assets/icons/cart-icons/close.svg"></a>
                             <img className="Product-image l-1 l-o-2  m-1 " src="./assets/images/single-product-woman/Plain-White-Shirt.png" alt="Product-image" />
                             <p className="product-name l-2 l-o-3 ">Plain White Shirt</p>
                             <p className="product-cost l-3 l-o-6  ">$59.00</p>

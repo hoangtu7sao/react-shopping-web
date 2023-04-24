@@ -1,7 +1,8 @@
 
 import React from "react"
 import './footer.css';
-import './grid.css';
+import '../../assets/css/grid.css';
+import '../../assets/css/style.css';
 
 
 function Footer() {

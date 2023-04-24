@@ -1,6 +1,7 @@
 import React from "react"
 import { Link } from "react-router-dom";
 import './header.css';
+import '../../assets/css/style.css';
 
 function Header() {
     return (
@@ -15,9 +16,9 @@ function Header() {
         </div>
         <div className="header-right">
           <img src="/shopping-website/assets/icons/header-icons/user-icon.svg" alt="user-icon" />
-          <div className="shopping-cart-icon" data="10">
+          <div className="shopping-cart-icon" data={0}>
        
-          <img src="/shopping-website/assets/icons/header-icons/cart-icon.svg" alt="cart-icon" />
+          <img src="../../assets/icons/header-icons/cart-icon.svg" alt="cart-icon" />
           <Link to="/cart">abc</Link>
             
           </div>
